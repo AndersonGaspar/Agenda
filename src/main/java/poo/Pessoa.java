@@ -36,15 +36,15 @@ public class Pessoa {
     }
 
     public boolean removeEmail(String r){
-
+        return true;
     }
 
     public boolean updateTelefone(String r, String n){
-
+        return true;
     }
 
     public boolean updateEmail(String r, String n){
-
+        return true;
     }
 
 
