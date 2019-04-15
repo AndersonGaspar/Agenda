@@ -9,6 +9,14 @@ public class Pessoa {
     private Telefone telefones;
     private Email emails;
 
+    public Pessoa(String nome, String sobreNome, LocalDate dataNasc, Telefone telefones, Email emails) {
+        this.nome = nome;
+        this.sobreNome = sobreNome;
+        this.dataNasc = dataNasc;
+        this.telefones = telefones;
+        this.emails = emails;
+    }
+
     public Pessoa(String n, String s, LocalDate d){
         this.nome = n;
         this.sobreNome = s;
