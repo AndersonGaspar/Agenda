@@ -18,10 +18,6 @@ public class Telefone {
         return true;
     }
 
-    public Telefone(HashMap<String, String> dados) {
-        this.dados = dados;
-    }
-
     @Override
     public String toString() {
         return "Telefone{" +
